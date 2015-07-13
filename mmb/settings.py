@@ -33,12 +33,12 @@ SOCIALACCOUNT_QUERY_EMAIL = True
 
 SOCIALACCOUNT_PROVIDERS = {
     'facebook': {
-        'SCOPE': ['email', 'publish_stream'],
+        'SCOPE': ['email', 'public_profile', 'user_friends'],
         'METHOD': 'js_sdk'  # instead of 'oauth2'
   }
 }
 
-SITE_ID = 1
+SITE_ID = 2
 
 # Application definition
 
